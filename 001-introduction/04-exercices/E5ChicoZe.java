@@ -30,6 +30,8 @@ public class E5ChicoZe {
 			alturaChico += 0.02;
 			alturaZe += 0.03;
 			
+			System.out.printf("----- %nAno: %d %nAltura do Chico: %f %nAltura do Zé: %f %n----- %n%n", qtdAnos, alturaChico, alturaZe);
+			
 			if (alturaZe > alturaChico) {
 				break;
 			}
