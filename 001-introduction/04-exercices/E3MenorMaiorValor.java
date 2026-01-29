@@ -16,21 +16,27 @@ public class E3MenorMaiorValor {
 		 */
 		
 		// variáveis
-		int i, numInput;
-		int[] numeros = new int[50];
+		int i, numInput, maiorValor=0, menorValor=0;
 		
 		// criando scanner
 		Scanner sc = new Scanner(System.in);
 		
 		//lógica
-		for (i=0; i<10; i++) {
-			System.out.printf("Digite um número inteiro [%d/50]: ", i+1);
+		for (i=1; i<=5; i++) {
+			System.out.printf("Digite um número inteiro [%d/50]: ", i);
 			numInput = sc.nextInt();
 			
-			numeros[i] = numInput;
+			if (i==1) {
+				maiorValor = numInput;
+				menorValor = numInput;
+			} else if (numInput > maiorValor) {
+				maiorValor = numInput;
+			} else if (numInput < menorValor) {
+				menorValor = numInput;
+			}
 		}
 		
-		System.out.println(numeros);
+		System.out.printf("Menor valor digitado: %d %nMaior valor digitado: %d", menorValor, maiorValor);
 
 	}
 }
