@@ -16,14 +16,17 @@ public class E4Tabuada {
 		 */
 		
 		// variáveis
-		int i, o, numInput;
+		int i, o, numInput, qtdNumeros;
 		
 		// criando scanner
 		Scanner sc = new Scanner(System.in);
 		
 		// lógica
-		for (i=0; i<20; i++) {
-			System.out.printf("Digite um número inteiro [%d/20]: ", i+1);
+		System.out.print("Quantos números você quer informar? ");
+		qtdNumeros = sc.nextInt();
+		
+		for (i=0; i<qtdNumeros; i++) {
+			System.out.printf("Digite um número inteiro [%d/%d]: ", i+1, qtdNumeros);
 			numInput = sc.nextInt();
 			
 			System.out.println("Tabuada do " + numInput);
@@ -34,4 +37,3 @@ public class E4Tabuada {
 
 	}
 }
-
