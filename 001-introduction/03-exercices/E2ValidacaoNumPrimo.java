@@ -14,16 +14,27 @@ public class E2ValidacaoNumPrimo {
 		 */
 		
 		// variáveis
-		int num;
+		int i, num, contador=0;
 		
 		// criando scanner
 		Scanner sc = new Scanner(System.in);
-		
+				
 		// guardando valor
 		System.out.println("Digite um número inteiro: ");
 		num = sc.nextInt();
-		
+				
 		// lógica
+		for (i=1; i<=num; i++) {
+			if (num%i==0) {
+				contador++;
+			}
+		}
+		
+		if (contador <= 2) {
+			System.out.printf("O número %d é um número primo!!", num);
+		} else {
+			System.out.printf("O número %d NÃO é um número primo!!", num);
+		}
 
 	}
 }
