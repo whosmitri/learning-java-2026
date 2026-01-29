@@ -27,11 +27,11 @@ public class E4Tabuada {
 			numInput = sc.nextInt();
 			
 			System.out.println("Tabuada do " + numInput);
-			for (o=1; o<11; o++) {
+			for (o=1; o<=numInput; o++) {
 				System.out.printf("%d x %d = %d %n", numInput, o, numInput*o);
 			}
 		}
 
 	}
-
 }
+
