@@ -1,0 +1,37 @@
+package exercicios01;
+
+import java.util.Scanner;
+
+public class E1VetorComDezNums {
+
+	public static void main(String[] args) {
+		/*
+		 * Crie um vetor para armazenar 10 
+		 * números inteiros digitados pelo 
+		 * usuário e, em seguida, faça a 
+		 * soma de todos os valores do vetor.
+		 */
+		
+		// variáveis
+		int nums[] = new int[10];
+		int somaNums=0;
+		
+		// criando scanner
+		Scanner sc = new Scanner(System.in);
+		
+		// guardar dados no vetor
+		for (int indice = 0; indice < 10; indice++) {
+			System.out.printf("Digite um número inteiro [%d/10]: ", indice+1);
+			nums[indice] = sc.nextInt();
+		}
+				
+		// imprime e soma todos os números
+		for (int indice = 0; indice < 10; indice++) {
+			somaNums += nums[indice];
+			System.out.printf("%nNúmero: %d", nums[indice]);
+		}
+		
+		System.out.printf("%nSoma total dos números do vetor: %d", somaNums);
+
+	}
+}
