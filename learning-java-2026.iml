@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+
   <component name="NewModuleRootManager" inherit-compiler-output="true">
+
     <exclude-output />
+
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/001-introduction" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/001-introduction/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/001-introduction/03-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/001-introduction/04-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
       <sourceFolder url="file://$MODULE_DIR$/002-loop_estructure" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/002-loop_estructure/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/002-loop_estructure/03-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
       <sourceFolder url="file://$MODULE_DIR$/003-methods" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/003-methods/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
       <sourceFolder url="file://$MODULE_DIR$/004-vetor" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/004-vetor/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
       <sourceFolder url="file://$MODULE_DIR$/005-matriz" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/005-matriz/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
     </content>
+
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+
   </component>
 </module>
+
