@@ -11,6 +11,12 @@ public class E1InformacoesRetangulo {
         private double altura, largura, comprimento;
         private String cor, material;
 
+        public Retangulo(double altura, double largura, double comprimento) {
+            setAltura(altura);
+            setLargura(largura);
+            setComprimento(comprimento);
+        }
+
         // métodos SET
         public void setAltura(double altura){
             this.altura = altura;
@@ -73,7 +79,7 @@ public class E1InformacoesRetangulo {
 
 
     public static void main(String[] args) {
-        Retangulo retangulo1 = new Retangulo();
+        Retangulo retangulo1 = new Retangulo(4, 2, 2);
         retangulo1.setAltura(4);
         retangulo1.setLargura(2);
         retangulo1.setComprimento(2);
