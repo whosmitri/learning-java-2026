@@ -23,6 +23,10 @@
 
       <sourceFolder url="file://$MODULE_DIR$/005-matriz" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/005-matriz/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
+      <sourceFolder url="file://$MODULE_DIR$/006-object_oriented_programming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/006-object_oriented_programming/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+      <sourceFolder url="file://$MODULE_DIR$/006-object_oriented_programming/04-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
     </content>
 
     <orderEntry type="inheritedJdk" />
@@ -30,4 +34,3 @@
 
   </component>
 </module>
-
