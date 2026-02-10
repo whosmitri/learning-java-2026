@@ -52,21 +52,21 @@ public class E1InformacoesRetangulo {
                     Largura: %.2f
                     Comprimento: %.2f
                     Cor: %s
-                    Material: %s""", this.altura, this.largura, this.comprimento, this.cor, this.material);
+                    Material: %s""", getAltura(), getLargura(), getComprimento(), getCor(), getMaterial());
         }
 
         public double calcArea() {
-            double area = this.altura * this.largura;
+            double area = getAltura() * getLargura();
             return area;
         }
 
         public double calcVolume() {
-            double volume = this.comprimento * this.altura * this.largura;
+            double volume = this.getComprimento() * getAltura() * getLargura();
             return volume;
         }
 
         public double calcPertimetro() {
-            double perimetro = 2*this.altura + 2*this.largura;
+            double perimetro = 2*getAltura() + 2*getLargura();
             return perimetro;
         }
     }
@@ -76,6 +76,7 @@ public class E1InformacoesRetangulo {
         Retangulo retangulo1 = new Retangulo();
         retangulo1.setAltura(4);
         retangulo1.setLargura(2);
+        retangulo1.setComprimento(2);
         retangulo1.setCor("Verde");
         retangulo1.setMaterial("Plástico");
 
