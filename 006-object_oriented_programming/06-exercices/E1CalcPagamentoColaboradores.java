@@ -128,7 +128,7 @@ public class E1CalcPagamentoColaboradores {
             }
         }
 
-        for (int index = 0; index < 3; index++) {
+        for (int index = 0; index < qtdColaboradores; index++) {
             System.out.println(colaboradores[index]);
         }
 
