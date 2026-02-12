@@ -53,7 +53,7 @@ public class E1CalcPagamentoColaboradores {
         }
     }
 
-    public class ColaboradorTerceirizado extends Colaborador {
+    public static class ColaboradorTerceirizado extends Colaborador {
         double custoAdicional;
 
         public ColaboradorTerceirizado (String nome, int hora, double valorPorHora, double custoAdicional) {
@@ -93,7 +93,7 @@ public class E1CalcPagamentoColaboradores {
         }
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         // variáveis
         int qtdColaboradores, i, tipoColab;
 

@@ -1,6 +1,6 @@
 public class AprendendoHeranca {
 
-    public class Animal {
+    public static class Animal {
 
         //atributos
         private String nome;
@@ -41,7 +41,7 @@ public class AprendendoHeranca {
         }
     }
 
-    public class Gato extends Animal {
+    public static class Gato extends Animal {
         @Override
         public String toString() {
             return "Gato{" +
@@ -51,7 +51,7 @@ public class AprendendoHeranca {
         }
     }
 
-    public class Cobra extends Animal {
+    public static class Cobra extends Animal {
         private String tipoVeneno;
 
         public Cobra(String nome, int idade, String tipoVeneno) {
@@ -68,22 +68,20 @@ public class AprendendoHeranca {
         }
     }
 
-    public class App {
-        public void main(String[] args) {
+    public static void main(String[] args) {
 
-            Gato g = new Gato();
-            g.setNome("Lili");
-            g.setIdade(5);
+        Gato g = new Gato();
+        g.setNome("Lili");
+        g.setIdade(5);
 
-            Animal a = new Cobra("Celeste",5,"Mortal");
-            Animal animais[] = new Animal[10];
+        Animal a = new Cobra("Celeste",5,"Mortal");
+        Animal animais[] = new Animal[10];
 
-            animais[0] = g;
-            animais[1] = a;
+        animais[0] = g;
+        animais[1] = a;
 
-            for (int i = 0; i < 2; i++) {
-                System.out.println(animais[i]);
-            }
+        for (int i = 0; i < 2; i++) {
+            System.out.println(animais[i]);
         }
     }
 }

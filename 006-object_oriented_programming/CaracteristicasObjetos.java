@@ -73,19 +73,17 @@ public class CaracteristicasObjetos {
         }
     }
 
-    public class Programa {
-        public static void main(String[] args) {
-            Cachorro cachorro = new Cachorro();
-            cachorro.setNome("Totó");
-            cachorro.setIdade(10);
-            cachorro.setRaca("Boxer");
+    public static void main(String[] args) {
+        Cachorro cachorro = new Cachorro();
+        cachorro.setNome("Totó");
+        cachorro.setIdade(10);
+        cachorro.setRaca("Boxer");
 
-            Tutor tutor = new Tutor();
-            tutor.setNome("Hebe");
-            tutor.setCachorro(cachorro);
+        Tutor tutor = new Tutor();
+        tutor.setNome("Hebe");
+        tutor.setCachorro(cachorro);
 
-            tutor.imprimirDados();
-            cachorro.imprimirDados();
-        }
+        tutor.imprimirDados();
+        cachorro.imprimirDados();
     }
 }
