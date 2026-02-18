@@ -29,6 +29,10 @@
 
       <sourceFolder url="file://$MODULE_DIR$/007-math_class" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/007-math_class/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
+      <sourceFolder url="file://$MODULE_DIR$/008-challange" isTestSource="false" />
+
+      <sourceFolder url="file://$MODULE_DIR$/009-abstract_class" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
