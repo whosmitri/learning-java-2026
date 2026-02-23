@@ -5,7 +5,11 @@ public class Circulo extends Forma{
 
     // método construtor
     public Circulo(double raio) {
+        super();
         setRaio(raio);
+    }
+
+    private void setRaio(double raio) {
     }
 
     @Override

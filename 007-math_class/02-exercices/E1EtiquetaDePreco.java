@@ -9,7 +9,7 @@ public class E1EtiquetaDePreco {
         double preco;
 
         // método construtor
-        public Produto(String nome, double preco) {
+        public Produto() {
             setNome(nome);
             setPreco(preco);
         }
@@ -44,6 +44,7 @@ public class E1EtiquetaDePreco {
 
         // método construtor
         public ProdutoImportado(double taxaAlfandega) {
+            super();
             setTaxaAlfandega(taxaAlfandega);
         }
 

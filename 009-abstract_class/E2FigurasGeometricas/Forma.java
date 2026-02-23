@@ -8,6 +8,10 @@ public abstract class Forma {
         this.cor = cor;
     }
 
+    public Forma() {
+
+    }
+
     // métodos
     public abstract double area();
     public abstract double perimetro();
