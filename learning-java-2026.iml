@@ -35,7 +35,8 @@
       <sourceFolder url="file://$MODULE_DIR$/009-abstract_class" isTestSource="false" />
 
       <sourceFolder url="file://$MODULE_DIR$/010-interface" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/010-interface/02-exercices" isTestSource="false" packagePrefix="aprendendo_java_2026" />
+
+      <sourceFolder url="file://$MODULE_DIR$/011-dates" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
